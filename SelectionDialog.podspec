@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SelectionDialog"
-  s.version      = "3.0.0"
+  s.version      = "4.2.0"
   s.summary      = "Simple selection dialog"
   s.homepage     = "https://github.com/kciter/SelectionDialog"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
@@ -10,4 +10,5 @@ Pod::Spec.new do |s|
   s.source_files = 'SelectionDialog/*.{swift}'
   s.frameworks   = 'UIKit', 'Foundation'
   s.requires_arc = true
+  s.swift_version = '4.2'
 end
